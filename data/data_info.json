@@ -1,0 +1,125 @@
+{
+  "customer_churn": {
+    "name": "Customer Churn Dataset",
+    "description": "Synthetic telecom customer churn dataset with realistic patterns",
+    "rows": 10000,
+    "task": "binary_classification",
+    "target": "churn",
+    "target_values": {
+      "0": "No churn (customer retained)",
+      "1": "Churn (customer left)"
+    },
+    "features": {
+      "customer_id": {
+        "type": "identifier",
+        "description": "Unique customer identifier"
+      },
+      "age": {
+        "type": "numeric",
+        "description": "Customer age in years",
+        "range": "18-80"
+      },
+      "tenure_months": {
+        "type": "numeric",
+        "description": "Number of months customer has been with company",
+        "range": "0-120"
+      },
+      "monthly_charges": {
+        "type": "numeric",
+        "description": "Current monthly service charges in dollars",
+        "range": "~20-180"
+      },
+      "total_charges": {
+        "type": "numeric",
+        "description": "Total amount charged to customer over lifetime",
+        "range": "0-20000+"
+      },
+      "support_calls": {
+        "type": "numeric",
+        "description": "Number of support calls made by customer",
+        "range": "0-10+"
+      },
+      "contract_type": {
+        "type": "categorical",
+        "description": "Type of customer contract",
+        "values": [
+          "Month-to-month",
+          "One year",
+          "Two year"
+        ]
+      },
+      "payment_method": {
+        "type": "categorical",
+        "description": "How customer pays their bill",
+        "values": [
+          "Electronic check",
+          "Mailed check",
+          "Bank transfer",
+          "Credit card"
+        ]
+      },
+      "internet_service": {
+        "type": "categorical",
+        "description": "Type of internet service",
+        "values": [
+          "DSL",
+          "Fiber optic",
+          "No"
+        ]
+      }
+    },
+    "usage_notes": [
+      "Primary dataset for Session 5 experiments",
+      "Balanced churn rate (~27%) for realistic modeling",
+      "Contains both numeric and categorical features",
+      "Realistic correlations (tenure reduces churn, support calls increase churn)",
+      "Suitable for classification algorithms"
+    ]
+  },
+  "iris": {
+    "name": "Iris Flower Dataset",
+    "description": "Classic iris species classification dataset",
+    "rows": 150,
+    "task": "multiclass_classification",
+    "target": "species",
+    "target_values": {
+      "setosa": "Iris Setosa",
+      "versicolor": "Iris Versicolor",
+      "virginica": "Iris Virginica"
+    },
+    "features": {
+      "sepal_length": {
+        "type": "numeric",
+        "description": "Sepal length in cm",
+        "range": "4.3-7.9"
+      },
+      "sepal_width": {
+        "type": "numeric",
+        "description": "Sepal width in cm",
+        "range": "2.0-4.4"
+      },
+      "petal_length": {
+        "type": "numeric",
+        "description": "Petal length in cm",
+        "range": "1.0-6.9"
+      },
+      "petal_width": {
+        "type": "numeric",
+        "description": "Petal width in cm",
+        "range": "0.1-2.5"
+      }
+    },
+    "usage_notes": [
+      "Secondary dataset for quick demos and testing",
+      "Perfect for testing multiclass classification",
+      "Small size good for fast iteration",
+      "Well-separated classes (Setosa is linearly separable)"
+    ]
+  },
+  "generation_info": {
+    "script": "generate_datasets.py",
+    "random_seed": 42,
+    "generation_date": "2025-10-29",
+    "purpose": "MLflow Tracking Starter Kit - Session 5"
+  }
+}
