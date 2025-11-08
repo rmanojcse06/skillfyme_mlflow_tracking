@@ -1,7 +1,5 @@
 # 🚀 MLflow Tracking Starter Kit
 
-**MLFlow project : https://www.mlflow.org/docs/latest/ml/projects/#convention-based-projects**
-
 **Session 5: Model Tracking with MLflow (Intermediate)**  
 *MLOps with Agentic AI - Advanced Certification Course*
 

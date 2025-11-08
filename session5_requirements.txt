@@ -1,0 +1,34 @@
+# MLflow Tracking Starter Kit - Requirements
+# Session 5: Model Tracking with MLflow (Intermediate)
+# MLOps with Agentic AI Course
+
+# ===== Core MLflow =====
+mlflow==2.9.2
+
+# ===== ML Frameworks =====
+scikit-learn==1.3.2
+xgboost==2.0.3
+lightgbm==4.1.0
+tensorflow==2.15.0
+
+# ===== Data Processing =====
+pandas==2.1.4
+numpy==1.24.3
+
+# ===== Visualization =====
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# ===== Utilities =====
+joblib==1.3.2
+pyyaml==6.0.1
+
+# ===== Optional but Recommended =====
+jupyter==1.0.0
+notebook==7.0.6
+
+# ===== For Data Generation =====
+faker==22.0.0
+
+# Note: This requirements file is tested on Python 3.9, 3.10, and 3.11
+# For best compatibility, use Python 3.10

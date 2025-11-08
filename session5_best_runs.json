@@ -2,11 +2,11 @@
   "session": 5,
   "experiment_name": "Session5_Advanced_Tracking",
   "experiment_id": "815487926271242681",
-  "date_created": "2025-11-01",
+  "date_created": "2025-11-08",
   "top_runs": [
     {
       "rank": 1,
-      "run_id": "d216221469d046bd8ba15b0df51cdfc2",
+      "run_id": "fd09ab5c05af48ee894a54c431002926",
       "run_name": "logreg_C0.1_penl1",
       "accuracy": 0.6835,
       "params": {
@@ -19,11 +19,11 @@
     },
     {
       "rank": 2,
-      "run_id": "d149fa589e384735bc340ec2c8409162",
-      "run_name": "logreg_C1.0_penl1",
-      "accuracy": 0.683,
+      "run_id": "108847f2c2454348aba64a8cb7444b11",
+      "run_name": "logreg_C0.1_penl1",
+      "accuracy": 0.6835,
       "params": {
-        "C": "1.0",
+        "C": "0.1",
         "max_iter": "1000",
         "penalty": "l1",
         "random_state": "42",
@@ -32,11 +32,11 @@
     },
     {
       "rank": 3,
-      "run_id": "11d5e8670d4f4a37875d4786d34be030",
-      "run_name": "logreg_C10.0_penl1",
-      "accuracy": 0.682,
+      "run_id": "84274499e0114bc8b19fe30901846d22",
+      "run_name": "logreg_C0.1_penl1",
+      "accuracy": 0.6835,
       "params": {
-        "C": "10.0",
+        "C": "0.1",
         "max_iter": "1000",
         "penalty": "l1",
         "random_state": "42",

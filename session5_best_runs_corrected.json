@@ -1,0 +1,53 @@
+[
+  {
+    "rank": 1,
+    "run_id": "90260827e758498a9182ff4f0374df8e",
+    "run_name": "logreg_C0.1_penl1",
+    "accuracy": 0.6835,
+    "params": {
+      "C": "0.1",
+      "max_iter": "1000",
+      "penalty": "l1",
+      "random_state": "42",
+      "solver": "liblinear"
+    },
+    "artifact_path": "best_model",
+    "original_run_id": "fd09ab5c05af48ee894a54c431002926",
+    "corrected": true,
+    "correction_reason": "Parent run contains model artifact"
+  },
+  {
+    "rank": 2,
+    "run_id": "54ae84fb6a654b89be052ee39b3faf27",
+    "run_name": "logreg_C0.1_penl1",
+    "accuracy": 0.6835,
+    "params": {
+      "C": "0.1",
+      "max_iter": "1000",
+      "penalty": "l1",
+      "random_state": "42",
+      "solver": "liblinear"
+    },
+    "artifact_path": "best_model",
+    "original_run_id": "108847f2c2454348aba64a8cb7444b11",
+    "corrected": true,
+    "correction_reason": "Parent run contains model artifact"
+  },
+  {
+    "rank": 3,
+    "run_id": "ff689efb6b3a4d47b813ff2f06660f4a",
+    "run_name": "logreg_C0.1_penl1",
+    "accuracy": 0.6835,
+    "params": {
+      "C": "0.1",
+      "max_iter": "1000",
+      "penalty": "l1",
+      "random_state": "42",
+      "solver": "liblinear"
+    },
+    "artifact_path": "best_model",
+    "original_run_id": "84274499e0114bc8b19fe30901846d22",
+    "corrected": true,
+    "correction_reason": "Parent run contains model artifact"
+  }
+]
